@@ -1,0 +1,61 @@
+body
+{
+background-image: linear-gradient(45deg,#e66465,#9198e5);
+}
+h1.name
+{
+	font-family:Comic Sans MS;
+	font-size:50px;
+	color:#ff8080;
+}
+.header
+{
+	float:right;
+}
+.header2
+{
+	float:left;
+}
+a:link, a:visited {
+  background-color:#ffe5e5;
+  color: black;
+  border: 2px solid #9198e5;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+  color: white;
+}
+.heading
+{
+	font-size:5vw;
+	font-family:lucida handwriting;
+}
+	
+.button
+{
+	background-image: linear-gradient(45deg,#e66465,#9198e5);
+	position:absolute;
+	font-family:times new roman;
+	font-size:20px;
+	color:#99ffe6;
+	border:none;
+	padding:20px;
+	text-align:center;
+	display:inline-box;
+	margin:14px 12px;
+	border-radius:22px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:hover
+{
+	color:green;
+}
+.Group
+{
+	text-align:center;
+}
