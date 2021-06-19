@@ -1,0 +1,104 @@
+*{
+color:white;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.6) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.20) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.15) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+
+#sam a:hover
+{
+	color:blue;
+}
+.Body{
+border-radius:25px;
+padding:30px;
+/*background:linear-gradient(to bottom,#ffccff ,#ccbbaa);*/
+display:inline-box;
+box-shadow:20px 20px 60px #aaf1ee,
+           -20px -20px 60px #aaf1ee;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+ /* background-color: #474e5d;*/
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#sam {
+   position:relative;
+   bottom:0;
+   width:100%;
+}
+.button
+{
+	background-image: linear-gradient(45deg,#000000,#9198e5);
+	position:relative;
+	font-family:times new roman;
+	font-size:20px;
+	color:#99ffe6;
+	border:none;
+	padding:20px;
+	text-align:center;
+/*	display:inline-box;
+	display: flex;  */
+   justify-content: center;  
+   align-items: center;  
+	margin:14px 12px;
+	border-radius:22px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:hover
+{
+	color:green;
+}
+
+
+
